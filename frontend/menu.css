@@ -2,7 +2,17 @@ body {
     /* background-color: rgb(111, 85, 85); */
     background: url(images/coffee-beans-top-view-white-background-space-text_176474-5028.avif);
     background-color: rgba(0, 0, 0, 0.587);
-    background-blend-mode: darken;
+    background-blend-mode: darken;;
+}
+
+.menu-title{
+    text-shadow: 6px 6px 12px #000000;
+    color:rgb(255, 158, 39);
+}
+
+.menu-title:hover{
+    color:rgb(255, 123, 0);
+    text-shadow: 6px 6px 12px #000000;
 }
 
 .table-responsive {
@@ -49,7 +59,7 @@ table caption{
 }
 
 table, caption{
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(27, 25, 13, 0.404);
 }
 
 th, td{
@@ -112,7 +122,7 @@ div.col h3{
     background-color: rgb(222, 86, 86);
     border: 1px;
     border-radius: 8px;
-    width: 50%;
+    width: 50%!important;
 }
 
 .remove:hover{
